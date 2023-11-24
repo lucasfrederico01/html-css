@@ -6,22 +6,44 @@
     <title>Teste de plano de fundo</title>
     <style>
 
-        div.quadrado{
-            border-radius: 3px;
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
         }
+
+        div.quadrado{
+            border-radius: 10px;
+            display: inline-block;
+            border: 3px solid black;
+            background-color: lightgray;
+            width: 200px;
+            height: 200px;
+        }
+
+        div#q1{
+            background-color: aqua;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        div#q3{
+            background-image: url(imagens/pattern003.png);
+        }
+
     </style>
 </head>
 <body>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
 
     </div>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
     
